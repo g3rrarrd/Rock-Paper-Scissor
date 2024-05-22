@@ -1,13 +1,14 @@
 from Game import process, elements
 
-options = {1: "Paper", 2:"Rock", 3:"Scissor"}
+class main:
 
-if(__name__ == "__main__"):
+    options = {1: "Paper", 2:"Rock", 3:"Scissor"}
+
     while True:
         try:
             print("what do you choose:\n 1.Paper \n 2.Rock \n 3.Scissor \n 4.Salir\n")
             value = int(input())
-            
+                
             if(value == 4):
                 print("\n Adios")
                 break
